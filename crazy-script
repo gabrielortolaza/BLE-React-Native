@@ -1,0 +1,106 @@
+#!/bin/bash
+
+git config user.name "Gabriel Ortolaza"
+git config user.email "gabriel.ortolaza124@gmail.com"
+
+local commit_count=0
+
+# Function to replace a .txt file with random text
+replace_with_random_text() {
+    local file_name="$1"
+
+    # Generate random text (20 random characters)
+    local random_text
+    random_text=$(cat /dev/urandom | tr -cd 'a-zA-Z0-9' | head -c 20)
+
+    # Replace the file content with the random text
+    echo "$random_text" > "$file_name"
+    echo "File content replaced with random text: $random_text"
+}
+
+# Function to perform random commits during a day
+random_commit_in_day() {
+    local current_date="$1"
+    local max_commit="$2"
+
+    # Generate a random number of commits for the day (between 1 and max_commit)
+    rand_count=$(( ( RANDOM % max_commit ) + 1 ))
+
+    # Loop to make random commits
+    for (( i = 0; i < rand_count; i++ )); do
+        # Generate random hour and minute for each commit
+        rand_hour=$(( ( RANDOM % 13 ) + 9 ))
+        rand_minute=$(( RANDOM % 60 ))
+        rand_second=$(( RANDOM % 60 ))
+
+        # Replace file content with random text
+        replace_with_random_text "crazy.txt"
+
+        # Stage changes
+        git add .
+
+        # Set GIT_AUTHOR_DATE and GIT_COMMITTER_DATE to the current date with random hour and minute
+        GIT_AUTHOR_DATE="$current_date $rand_hour:$rand_minute:$rand_second" \
+        GIT_COMMITTER_DATE="$current_date $rand_hour:$rand_minute:$rand_second" \
+        git commit -m "crazy coding - $current_date $rand_hour:$rand_minute:$rand_second"commit_count
+        (( commit_count++ ))
+    done
+}
+
+# Function to commit changes between two dates, skipping weekends
+echo_dates_range_skip_weekends() {
+    local start_date="$1"
+    local end_date="$2"
+    local max_commit=5
+    local weekend_max_commit=2
+
+    # Convert start and end dates to seconds since the Unix epoch
+    local start_ts
+    local end_ts
+    start_ts=$(date -d "$start_date" +%s)
+    end_ts=$(date -d "$end_date" +%s)
+
+    # Check if start date is after end date
+    if [[ "$start_ts" -gt "$end_ts" ]]; then
+        echo "Error: Start date is after end date!"
+        return 1
+    fi
+
+    # Loop over each date between the start and end dates
+    local current_ts="$start_ts"
+    while [[ "$current_ts" -le "$end_ts" ]]; do
+        local current_date
+        current_date=$(date -d "@$current_ts" "+%Y-%m-%d")
+
+        # Get the day of the week (1 = Monday, 7 = Sunday)
+        local day_of_week
+        day_of_week=$(date -d "$current_date" +%u)
+
+        # Randomly work on weekend (15%)
+        if [[ "$day_of_week" -eq 6 || "$day_of_week" -eq 7 ]]; then
+            work_on_weekend=$(( RANDOM % 7 ))
+            if [[ "$work_on_weekend" -eq 0 ]]; then
+                echo "==== git commit (weekend) === $current_date"
+                random_commit_in_day "$current_date" "$weekend_max_commit"
+            fi
+        else
+            # Randomly don't work on weekday (20%)
+            local rand_num=$(( RANDOM % 5 ))
+            if [[ "$rand_num" -gt 0 ]]; then
+                echo "==== git commit (weekday) === $current_date"
+                random_commit_in_day "$current_date" "$max_commit"
+            fi
+        fi
+
+        # Move to the next day (add 86400 seconds, which is 1 day)
+        current_ts=$((current_ts + 86400))
+        if [[ "$commit_count" -gt 100 ]]; then
+            echo "---------------------git push------------------"
+            git push
+            commit_count=0
+        fi
+    done
+    git push
+}
+
+echo_dates_range_skip_weekends "2012-01-28" "2024-11-08"
