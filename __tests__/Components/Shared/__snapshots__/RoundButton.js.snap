@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoundButton Default 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      undefined,
+      Array [
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "rgb(66, 162, 194)",
+          "borderRadius": 44,
+        },
+      ],
+      Object {
+        "overflow": null,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "rgb(66, 162, 194)",
+        "borderRadius": 44,
+        "opacity": 1,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "justifyContent": "center",
+          },
+          Object {
+            "flex": 0,
+            "height": 88,
+            "minWidth": 212,
+            "paddingHorizontal": 44,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "textAlign": "center",
+            },
+            Array [
+              Object {
+                "color": "rgb(255, 255, 255)",
+                "fontFamily": "Graphik-Semibold",
+                "fontSize": 36,
+                "height": 88,
+                "lineHeight": 88,
+                "marginBottom": 0,
+                "textAlign": "center",
+                "textAlignVertical": "center",
+              },
+            ],
+          ]
+        }
+      >
+        Test ios
+      </Text>
+    </View>
+  </View>
+</View>
+`;

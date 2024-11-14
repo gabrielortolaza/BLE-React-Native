@@ -1,0 +1,3664 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabAccountScreen Default 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "backgroundColor": "white",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "justifyContent": "center",
+            "minHeight": 504,
+            "paddingHorizontal": 96,
+          },
+          undefined,
+        ]
+      }
+      testID="undefined"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Light",
+              "fontSize": 100,
+              "fontWeight": "300",
+              "marginTop": 38,
+            },
+            undefined,
+          ]
+        }
+        testID="undefined_Title"
+      >
+        Hi, Jane
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "overflow": "visible",
+          "padding": 0,
+          "position": "absolute",
+          "right": 20,
+          "top": 220,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {},
+            Array [
+              Object {
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
+              },
+              undefined,
+              undefined,
+              Object {
+                "borderRadius": 18,
+                "height": 36,
+                "width": 36,
+              },
+            ],
+            Object {
+              "overflow": null,
+            },
+            Object {
+              "elevation": 5,
+              "shadowColor": "rgb(0, 0, 0)",
+              "shadowOffset": Object {
+                "height": 3,
+                "width": 0,
+              },
+              "shadowOpacity": 0.2,
+              "shadowRadius": 3,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "borderRadius": 18,
+              "height": 36,
+              "opacity": 1,
+              "overflow": "hidden",
+              "width": 36,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "justifyContent": "center",
+                },
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "flex": 1,
+                  "paddingBottom": 0,
+                },
+                Object {
+                  "backgroundColor": "rgb(60, 161, 195)",
+                },
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/edit1483.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "maxHeight": 20,
+                    "maxWidth": 20,
+                  },
+                  Object {
+                    "marginBottom": 4,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/Assets/Images/Icons/notification.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginRight": 40,
+            "width": 60,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Bold",
+              "fontSize": 28,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Push Notifications
+        </Text>
+      </View>
+      <RCTSwitch
+        accessibilityRole="button"
+        disabled={true}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTintColor="rgb(60, 161, 195)"
+        style={
+          Object {
+            "height": 31,
+            "width": 51,
+          }
+        }
+        thumbTintColor={null}
+        tintColor={null}
+        value={false}
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/Assets/Images/Icons/measure.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginRight": 40,
+            "width": 60,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Bold",
+              "fontSize": 28,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Measure Unit
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "flexDirection": "row",
+            "height": 60,
+            "justifyContent": "center",
+            "minWidth": 180,
+            "opacity": 1,
+            "paddingHorizontal": 6,
+          }
+        }
+      >
+        <Text
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "flex": 1,
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 60,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgb(71, 71, 71)",
+                "height": 60,
+                "paddingRight": 10,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "black",
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 60,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgb(71, 71, 71)",
+                "height": 60,
+                "paddingRight": 10,
+              },
+            ]
+          }
+        >
+          ▼
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/Assets/Images/Icons/session.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginRight": 40,
+            "width": 60,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Bold",
+              "fontSize": 28,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Session Type
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "flexDirection": "row",
+            "height": 60,
+            "justifyContent": "center",
+            "minWidth": 180,
+            "opacity": 1,
+            "paddingHorizontal": 6,
+          }
+        }
+      >
+        <Text
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "flex": 1,
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 60,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgb(71, 71, 71)",
+                "height": 60,
+                "paddingRight": 10,
+              },
+            ]
+          }
+        >
+          None
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "black",
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 60,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgb(71, 71, 71)",
+                "height": 60,
+                "paddingRight": 10,
+              },
+            ]
+          }
+        >
+          ▼
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/Assets/Images/Icons/measure.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginRight": 40,
+            "width": 60,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Bold",
+              "fontSize": 28,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Milk Stash
+        </Text>
+      </View>
+      <Text />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/milestone.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Milestones
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/schedule.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Pumping schedule
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/request.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Reset password
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/request.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Send feedback
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/signout.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Sign out
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/deleteAccount.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Delete Account
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "rgb(112, 112, 112)",
+                "fontFamily": "NunitoSans-Bold",
+                "fontSize": 24,
+                "fontWeight": "700",
+              },
+              Object {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Pump Buddy vundefined
+        </Text>
+      </View>
+      <View />
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`TabAccountScreen Facebook Login 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "backgroundColor": "white",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "justifyContent": "center",
+            "minHeight": 504,
+            "paddingHorizontal": 96,
+          },
+          undefined,
+        ]
+      }
+      testID="undefined"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Light",
+              "fontSize": 100,
+              "fontWeight": "300",
+              "marginTop": 38,
+            },
+            undefined,
+          ]
+        }
+        testID="undefined_Title"
+      >
+        Hi, Jane
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "overflow": "visible",
+          "padding": 0,
+          "position": "absolute",
+          "right": 20,
+          "top": 220,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {},
+            Array [
+              Object {
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
+              },
+              undefined,
+              undefined,
+              Object {
+                "borderRadius": 18,
+                "height": 36,
+                "width": 36,
+              },
+            ],
+            Object {
+              "overflow": null,
+            },
+            Object {
+              "elevation": 5,
+              "shadowColor": "rgb(0, 0, 0)",
+              "shadowOffset": Object {
+                "height": 3,
+                "width": 0,
+              },
+              "shadowOpacity": 0.2,
+              "shadowRadius": 3,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "borderRadius": 18,
+              "height": 36,
+              "opacity": 1,
+              "overflow": "hidden",
+              "width": 36,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "justifyContent": "center",
+                },
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "flex": 1,
+                  "paddingBottom": 0,
+                },
+                Object {
+                  "backgroundColor": "rgb(60, 161, 195)",
+                },
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/edit1483.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "maxHeight": 20,
+                    "maxWidth": 20,
+                  },
+                  Object {
+                    "marginBottom": 4,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/Assets/Images/Icons/notification.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginRight": 40,
+            "width": 60,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Bold",
+              "fontSize": 28,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Push Notifications
+        </Text>
+      </View>
+      <RCTSwitch
+        accessibilityRole="button"
+        disabled={true}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTintColor="rgb(60, 161, 195)"
+        style={
+          Object {
+            "height": 31,
+            "width": 51,
+          }
+        }
+        thumbTintColor={null}
+        tintColor={null}
+        value={false}
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/Assets/Images/Icons/measure.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginRight": 40,
+            "width": 60,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Bold",
+              "fontSize": 28,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Measure Unit
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "flexDirection": "row",
+            "height": 60,
+            "justifyContent": "center",
+            "minWidth": 180,
+            "opacity": 1,
+            "paddingHorizontal": 6,
+          }
+        }
+      >
+        <Text
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "flex": 1,
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 60,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgb(71, 71, 71)",
+                "height": 60,
+                "paddingRight": 10,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "black",
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 60,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgb(71, 71, 71)",
+                "height": 60,
+                "paddingRight": 10,
+              },
+            ]
+          }
+        >
+          ▼
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/Assets/Images/Icons/session.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginRight": 40,
+            "width": 60,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Bold",
+              "fontSize": 28,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Session Type
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "flexDirection": "row",
+            "height": 60,
+            "justifyContent": "center",
+            "minWidth": 180,
+            "opacity": 1,
+            "paddingHorizontal": 6,
+          }
+        }
+      >
+        <Text
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "flex": 1,
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 60,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgb(71, 71, 71)",
+                "height": 60,
+                "paddingRight": 10,
+              },
+            ]
+          }
+        >
+          None
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "black",
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 60,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgb(71, 71, 71)",
+                "height": 60,
+                "paddingRight": 10,
+              },
+            ]
+          }
+        >
+          ▼
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/Assets/Images/Icons/measure.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginRight": 40,
+            "width": 60,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Bold",
+              "fontSize": 28,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Milk Stash
+        </Text>
+      </View>
+      <Text />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/milestone.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Milestones
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/schedule.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Pumping schedule
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/request.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Reset password
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/request.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Send feedback
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/signout.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Sign out
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/deleteAccount.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Delete Account
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "rgb(112, 112, 112)",
+                "fontFamily": "NunitoSans-Bold",
+                "fontSize": 24,
+                "fontWeight": "700",
+              },
+              Object {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Pump Buddy vundefined
+        </Text>
+      </View>
+      <View />
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`TabAccountScreen Has Fitbit 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "backgroundColor": "white",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "justifyContent": "center",
+            "minHeight": 504,
+            "paddingHorizontal": 96,
+          },
+          undefined,
+        ]
+      }
+      testID="undefined"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Light",
+              "fontSize": 100,
+              "fontWeight": "300",
+              "marginTop": 38,
+            },
+            undefined,
+          ]
+        }
+        testID="undefined_Title"
+      >
+        Hi, Jane
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "overflow": "visible",
+          "padding": 0,
+          "position": "absolute",
+          "right": 20,
+          "top": 220,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {},
+            Array [
+              Object {
+                "borderRadius": 30,
+                "height": 60,
+                "width": 60,
+              },
+              undefined,
+              undefined,
+              Object {
+                "borderRadius": 18,
+                "height": 36,
+                "width": 36,
+              },
+            ],
+            Object {
+              "overflow": null,
+            },
+            Object {
+              "elevation": 5,
+              "shadowColor": "rgb(0, 0, 0)",
+              "shadowOffset": Object {
+                "height": 3,
+                "width": 0,
+              },
+              "shadowOpacity": 0.2,
+              "shadowRadius": 3,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "borderRadius": 18,
+              "height": 36,
+              "opacity": 1,
+              "overflow": "hidden",
+              "width": 36,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "justifyContent": "center",
+                },
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "flex": 1,
+                  "paddingBottom": 0,
+                },
+                Object {
+                  "backgroundColor": "rgb(60, 161, 195)",
+                },
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/edit1483.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "maxHeight": 20,
+                    "maxWidth": 20,
+                  },
+                  Object {
+                    "marginBottom": 4,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/Assets/Images/Icons/notification.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginRight": 40,
+            "width": 60,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Bold",
+              "fontSize": 28,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Push Notifications
+        </Text>
+      </View>
+      <RCTSwitch
+        accessibilityRole="button"
+        disabled={true}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTintColor="rgb(60, 161, 195)"
+        style={
+          Object {
+            "height": 31,
+            "width": 51,
+          }
+        }
+        thumbTintColor={null}
+        tintColor={null}
+        value={false}
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/Assets/Images/Icons/measure.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginRight": 40,
+            "width": 60,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Bold",
+              "fontSize": 28,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Measure Unit
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "flexDirection": "row",
+            "height": 60,
+            "justifyContent": "center",
+            "minWidth": 180,
+            "opacity": 1,
+            "paddingHorizontal": 6,
+          }
+        }
+      >
+        <Text
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "flex": 1,
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 60,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgb(71, 71, 71)",
+                "height": 60,
+                "paddingRight": 10,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "black",
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 60,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgb(71, 71, 71)",
+                "height": 60,
+                "paddingRight": 10,
+              },
+            ]
+          }
+        >
+          ▼
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/Assets/Images/Icons/session.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginRight": 40,
+            "width": 60,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Bold",
+              "fontSize": 28,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Session Type
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "flexDirection": "row",
+            "height": 60,
+            "justifyContent": "center",
+            "minWidth": 180,
+            "opacity": 1,
+            "paddingHorizontal": 6,
+          }
+        }
+      >
+        <Text
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "flex": 1,
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 60,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgb(71, 71, 71)",
+                "height": 60,
+                "paddingRight": 10,
+              },
+            ]
+          }
+        >
+          None
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "black",
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 60,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgb(71, 71, 71)",
+                "height": 60,
+                "paddingRight": 10,
+              },
+            ]
+          }
+        >
+          ▼
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/Assets/Images/Icons/measure.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginRight": 40,
+            "width": 60,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontFamily": "NunitoSans-Bold",
+              "fontSize": 28,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Milk Stash
+        </Text>
+      </View>
+      <Text />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/milestone.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Milestones
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/schedule.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Pumping schedule
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/request.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Reset password
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/request.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Send feedback
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/signout.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Sign out
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+          undefined,
+          Object {
+            "overflow": null,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomWidth": 2,
+                  "borderColor": "rgba(0, 0, 0, 0.2)",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 80,
+                  "paddingVertical": 36,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/deleteAccount.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 60,
+                  "marginRight": 40,
+                  "width": 60,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 40,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "rgb(71, 71, 71)",
+                    "fontFamily": "NunitoSans-Bold",
+                    "fontSize": 28,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Delete Account
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/Assets/Images/Icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 12.5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 80,
+            "paddingVertical": 36,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginRight": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "rgb(112, 112, 112)",
+                "fontFamily": "NunitoSans-Bold",
+                "fontSize": 24,
+                "fontWeight": "700",
+              },
+              Object {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Pump Buddy vundefined
+        </Text>
+      </View>
+      <View />
+    </View>
+  </View>
+</RCTScrollView>
+`;

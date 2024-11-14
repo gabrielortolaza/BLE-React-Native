@@ -1,0 +1,304 @@
+{
+  "data": {
+    "2793" : {
+      "author" : "Pumpables Team",
+      "authorId" : 2,
+      "id" : 2793,
+      "link" : "https://pumpables.co/introducing-pumpables/",
+      "media" : "https://pumpables.co/wp-content/uploads/2016/07/087c1731defaa1ffc893bf5aa83245af.jpg",
+      "mediaId" : 2795,
+      "timestamp" : "1",
+      "title" : "Introducing Pumpables :)"
+    },
+    "2798" : {
+      "author" : "Pumpables Team",
+      "authorId" : 2,
+      "id" : 2798,
+      "link" : "https://pumpables.co/use-your-medela-flange-with-your-spectra-breast-pump/",
+      "media" : "https://pumpables.co/wp-content/uploads/2016/07/Untitled-design.jpg",
+      "mediaId" : 2799,
+      "timestamp" : "2",
+      "title" : "Use your Medela Flange With Your Spectra Breast Pump"
+    },
+    "3926" : {
+      "author" : "Pumpables Team",
+      "authorId" : 2,
+      "id" : 3926,
+      "link" : "https://pumpables.co/youre-loving-pumpables-milk-genie/",
+      "media" : "https://pumpables.co/wp-content/uploads/2017/02/Singlemumdiaries-5-of-12.jpg",
+      "mediaId" : 3400,
+      "timestamp" : "3",
+      "title" : "What you&#8217;re loving about the Pumpables Milk Genie <3"
+    }
+  },
+  "helpCenter" : {
+    "topic1": {
+      "title": "Topic 1",
+      "entries": {
+        "1517765252_1" : {
+          "answer" : "Up to 8 hours. You can keep it longer if you have access to a cooler pack and insulated breast pump bag. Click <a href=\\\"https://pumpables.co/\\\">here</a> for a complete guide on breastmilk storage.",
+          "createdAt" : 1517765252,
+          "order" : 1,
+          "question" : "How long can breastmilk be kept at room tempurature?"
+        },
+        "1517765252_2" : {
+          "createdAt" : 1517765252,
+          "order" : 2,
+          "question" : "How long can milk be stored in the refrigerator?"
+        },
+        "1517765252_3" : {
+          "createdAt" : 1517765252,
+          "order" : 3,
+          "question" : "How long can breastmilk be stored in the freezer?"
+        }
+      }
+    },
+    "topic2": {
+      "title": "Topic 2",
+      "entries": {
+        "1517765252_4" : {
+          "createdAt" : 1517765252,
+          "order" : 4,
+          "question" : "What's the best way to thaw breastmilk?"
+        },
+        "1517765252_5" : {
+          "createdAt" : 1517765252,
+          "order" : 5,
+          "question" : "How do I warm breastmilk for baby?"
+        },
+        "1517765252_6" : {
+          "createdAt" : 1517765252,
+          "order" : 6,
+          "question" : "My breastmilk smells soapy / baby refuses to drink."
+        }
+      }
+    },
+    "topic3": {
+      "title": "Topic 3",
+      "entries": {
+        "1517765252_7" : {
+          "createdAt" : 1517765252,
+          "order" : 7,
+          "question" : "How do I know which breastshield size to use? "
+        },
+        "1517765252_8" : {
+          "createdAt" : 1517765252,
+          "order" : 8,
+          "question" : "Why does a gradual reduction in suction while pumping happen?"
+        },
+        "1517765252_9" : {
+          "createdAt" : 1517765252,
+          "order" : 9,
+          "question" : "My breasts aren’t draining / I’m not feeling any relief while pumping"
+        }
+      }
+    }
+  },
+  "logs" : {
+    "BZs6i68gWUTnzWajODFZVCZBHtT2" : {
+      "-L4bxEni7dO2Ishna9tR" : {
+        "datestamp" : "1517788800000",
+        "duration" : 40,
+        "durationMinutes" : 0,
+        "durationSeconds" : 40,
+        "finishedAt" : 1517867563000,
+        "key" : "-L4bxEni7dO2Ishna9tR",
+        "mod" : 3,
+        "notes" : "Blablabla",
+        "sessionType" : "pump",
+        "startedAt" : 1517867559736,
+        "type" : "session",
+        "uid" : "BZs6i68gWUTnzWajODFZVCZBHtT2"
+      },
+      "6CG3T6_activities_2018-01-23" : {
+        "goals" : {
+          "activeMinutes" : 30,
+          "caloriesOut" : 3096,
+          "distance" : 8.05,
+          "floors" : 10,
+          "steps" : 10000
+        },
+        "subtype" : "activities",
+        "summary" : {
+          "activeScore" : -1,
+          "activityCalories" : 31,
+          "caloriesBMR" : 1905,
+          "caloriesOut" : 1935,
+          "distances" : [ {
+            "activity" : "total",
+            "distance" : 0.14
+          }, {
+            "activity" : "tracker",
+            "distance" : 0.14
+          }, {
+            "activity" : "loggedActivities",
+            "distance" : 0
+          }, {
+            "activity" : "veryActive",
+            "distance" : 0
+          }, {
+            "activity" : "moderatelyActive",
+            "distance" : 0
+          }, {
+            "activity" : "lightlyActive",
+            "distance" : 0.14
+          }, {
+            "activity" : "sedentaryActive",
+            "distance" : 0
+          } ],
+          "elevation" : 9.14,
+          "fairlyActiveMinutes" : 0,
+          "floors" : 3,
+          "lightlyActiveMinutes" : 7,
+          "marginalCalories" : 16,
+          "sedentaryMinutes" : 1433,
+          "steps" : 190,
+          "veryActiveMinutes" : 0
+        },
+        "type" : "fitbit",
+        "uid" : "BZs6i68gWUTnzWajODFZVCZBHtT2"
+      },
+      "6CG3T6_activities_2018-01-24" : {
+        "goals" : {
+          "activeMinutes" : 30,
+          "caloriesOut" : 3096,
+          "distance" : 8.05,
+          "floors" : 10,
+          "steps" : 10000
+        },
+        "subtype" : "activities",
+        "summary" : {
+          "activeScore" : -1,
+          "activityCalories" : 0,
+          "caloriesBMR" : 529,
+          "caloriesOut" : 529,
+          "distances" : [ {
+            "activity" : "total",
+            "distance" : 0
+          }, {
+            "activity" : "tracker",
+            "distance" : 0
+          }, {
+            "activity" : "loggedActivities",
+            "distance" : 0
+          }, {
+            "activity" : "veryActive",
+            "distance" : 0
+          }, {
+            "activity" : "moderatelyActive",
+            "distance" : 0
+          }, {
+            "activity" : "lightlyActive",
+            "distance" : 0
+          }, {
+            "activity" : "sedentaryActive",
+            "distance" : 0
+          } ],
+          "elevation" : 0,
+          "fairlyActiveMinutes" : 0,
+          "floors" : 0,
+          "lightlyActiveMinutes" : 0,
+          "marginalCalories" : 0,
+          "sedentaryMinutes" : 400,
+          "steps" : 0,
+          "veryActiveMinutes" : 0
+        },
+        "type" : "fitbit",
+        "uid" : "BZs6i68gWUTnzWajODFZVCZBHtT2"
+      },
+      "kDwbvBjdGwMiDLeBjM8xNkMEtNn1_fev_15" : {
+        "datestamp" : "1518652800000",
+        "motivatorType" : "monthly",
+        "startedAt" : 1518663600007,
+        "subtitle" : "150 of 180ml",
+        "title" : "Achievement is getting closer!",
+        "type" : "motivator",
+        "uid" : "BZs6i68gWUTnzWajODFZVCZBHtT2"
+      },
+      "kDwbvBjdGwMiDLeBjM8xNkMEtNn1_fev_16" : {
+        "datestamp" : "1518739200000",
+        "description" : "You’ve pumped 30 of your 50ml weekly milestone. Way to go!",
+        "motivatorType" : "weekly",
+        "startedAt" : 1518750000185,
+        "subtitle" : "30 of 50ml",
+        "title" : "Achievement is\ngetting closer!!",
+        "type" : "motivator",
+        "uid" : "BZs6i68gWUTnzWajODFZVCZBHtT2"
+      },
+      "kDwbvBjdGwMiDLeBjM8xNkMEtNn1_fev_17_1" : {
+        "datestamp" : "1518825600000",
+        "duration" : 237,
+        "durationMinutes" : 3,
+        "durationSeconds" : 57,
+        "finishedAt" : 1518843403188,
+        "key" : "kDwbvBjdGwMiDLeBjM8xNkMEtNn1_fev_17_1",
+        "notes" : "Let it go... Let it gooooooo!",
+        "sessionType" : "pump",
+        "startedAt" : 1518839803184,
+        "type" : "session",
+        "typeSubtype" : "milking_pumping",
+        "uid" : "BZs6i68gWUTnzWajODFZVCZBHtT2",
+        "volume" : 33
+      },
+      "kDwbvBjdGwMiDLeBjM8xNkMEtNn1_fev_17_2" : {
+        "datestamp" : "1518825600000",
+        "startedAt" : 1518847003181,
+        "subtitle" : "Repeats every 8 weeks",
+        "title" : "Replace Backflow protectors",
+        "type" : "reminder",
+        "uid" : "BZs6i68gWUTnzWajODFZVCZBHtT2"
+      },
+      "kDwbvBjdGwMiDLeBjM8xNkMEtNn1_fev_18" : {
+        "datestamp" : "1518912000000",
+        "duration" : 134,
+        "durationMinutes" : 2,
+        "durationSeconds" : 14,
+        "finishedAt" : 1518930000188,
+        "key" : "kDwbvBjdGwMiDLeBjM8xNkMEtNn1_fev_18",
+        "notes" : "Here we go! Hahaha!",
+        "sessionType" : "feed",
+        "startedAt" : 1518926400182,
+        "type" : "session",
+        "uid" : "BZs6i68gWUTnzWajODFZVCZBHtT2",
+        "volume" : 27
+      }
+    }
+  },
+  "profiles" : {
+    "BZs6i68gWUTnzWajODFZVCZBHtT2" : {
+      "displayName" : "Sid Ferreira",
+      "email" : "sidgbf@gmail.com",
+      "fitbit" : {
+        "a" : 1,
+        "access_token" : "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2Q0czVDYiLCJhdWQiOiIyMkNRNUsiLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyd2VpIHJhY3QgcnNldCBybnV0IHJwcm8gcnNsZSIsImV4cCI6MTU0ODI0NjcxNywiaWF0IjoxNTE2NzE5MDc5fQ.xthSt4s3Cx9LSpSbAYO5o0Ush2e24axegh-OOemvpj0",
+        "expires_in" : 31527638,
+        "scope" : "nutrition activity sleep weight profile settings",
+        "token_type" : "Bearer",
+        "user_id" : "6CG3T6"
+      }
+    },
+    "kDwbvBjdGwMiDLeBjM8xNkMEtNn1" : {
+      "displayName" : "Pumpables Dev",
+      "email" : "dev@pumpables.co"
+    }
+  },
+  "logSummaries" : {
+    "BZs6i68gWUTnzWajODFZVCZBHtT2" : {
+      "2018-02-19" : {
+        "duration" : 1471,
+        "hours" : {
+          "12" : {
+            "duration" : 600,
+            "volume" : 300
+          },
+          "13" : {
+            "duration" : 271,
+            "volume" : 150
+          },
+          "16" : 1050
+        },
+        "volume" : 1500
+      }
+    }
+  }  
+}

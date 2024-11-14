@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TourAuthScreen Sign In - with email and password 1`] = `ShallowWrapper {}`;
+
+exports[`TourAuthScreen Sign In - with empty inputs 1`] = `ShallowWrapper {}`;

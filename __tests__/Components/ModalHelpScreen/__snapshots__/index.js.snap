@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalHelpScreen Default: Default Contents 1`] = `ShallowWrapper {}`;
+
+exports[`ModalHelpScreen Default: TabViewAnimated Contents 1`] = `ShallowWrapper {}`;
+
+exports[`ModalHelpScreen Empty: Empty Contents 1`] = `ShallowWrapper {}`;
+
+exports[`ModalHelpScreen RenderFlatListItem 1`] = `ShallowWrapper {}`;
+
+exports[`ModalHelpScreen RenderFlatListItem 2`] = `ShallowWrapper {}`;
+
+exports[`ModalHelpScreen RenderFlatListItem 3`] = `ShallowWrapper {}`;

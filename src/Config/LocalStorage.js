@@ -1,0 +1,17 @@
+export const STORAGE_PROGRAMS = "programs";
+export const STORAGE_PROGRAM_PAUSE = "program-pause";
+export const STORAGE_PROGRAM_IMAGES = "program_images";
+export const ADDED_CREATED_ID = "added_created_id";
+export const CHANGED_AD_PROGRAMS_PUMP_NAME = "changed_ad_programs_pump_name";
+export const LOCATION_PERMISSION = "location_permission";
+export const DEFAULT_PROGRAM_DELETED = "default_program_deleted";
+export const KEY_USER_TUTORIAL = "userFinishedTutorial";
+export const MILK_STASH_TUTORIAL = "milk_stash_tutorial";
+export const LAST_PLAY_MODE_STORED = "lastPlayModeRun";
+export const REMEMBER_ME = "rememberMeAuth";
+export const REMEMBER_DEVICE_ID = "deviceId";
+export const REFRESH_PL_LIST = "refresh_pl_list";
+export const PUMP_NAME = "pump_name";
+export const CHECKED_DST_TODAY = "checked_dst_today";
+export const LOGS_STASH_LIST_VIEW_OPTIONS = "logs_stash_list_view_options";
+export const LAST_STASH_ALERT_DATE = "lastStashAlertDate";

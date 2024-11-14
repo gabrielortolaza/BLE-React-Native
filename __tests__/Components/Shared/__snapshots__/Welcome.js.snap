@@ -1,0 +1,843 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Subtitle 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+        "minHeight": 504,
+        "paddingHorizontal": 96,
+      },
+      undefined,
+    ]
+  }
+  testID="undefined"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Graphik-Regular",
+          "letterSpacing": 0.75,
+          "textAlign": "left",
+        },
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        Array [
+          Object {
+            "color": "rgb(71, 71, 71)",
+            "fontFamily": "Graphik-Regular",
+            "fontSize": 80,
+            "marginTop": 38,
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="undefined_Title"
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "flex-start",
+        "minHeight": 60,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Graphik-Regular",
+            "letterSpacing": 0.75,
+            "textAlign": "left",
+          },
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          Array [
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontSize": 40,
+              "justifyContent": "center",
+              "lineHeight": 60,
+              "paddingLeft": 6,
+            },
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined_Subtitle"
+    >
+      Welcome Subtitle
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Title + Subtitle + Alt + Flex 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+        "minHeight": 504,
+        "paddingHorizontal": 96,
+      },
+      Object {
+        "flex": 1,
+        "minHeight": 0,
+      },
+    ]
+  }
+  testID="undefined"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Graphik-Regular",
+          "letterSpacing": 0.75,
+          "textAlign": "left",
+        },
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        Array [
+          Object {
+            "color": "rgb(71, 71, 71)",
+            "fontFamily": "Graphik-Regular",
+            "fontSize": 80,
+            "marginTop": 38,
+          },
+          Object {
+            "color": "rgb(66, 162, 194)",
+          },
+        ],
+      ]
+    }
+    testID="undefined_Title"
+  >
+    Welcome Title
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "flex-start",
+        "minHeight": 60,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Graphik-Regular",
+            "letterSpacing": 0.75,
+            "textAlign": "left",
+          },
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          Array [
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontSize": 40,
+              "justifyContent": "center",
+              "lineHeight": 60,
+              "paddingLeft": 6,
+            },
+            Object {
+              "color": "rgb(66, 162, 194)",
+            },
+          ],
+        ]
+      }
+      testID="undefined_Subtitle"
+    >
+      Welcome Subtitle
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Title + Subtitle + Alt 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+        "minHeight": 504,
+        "paddingHorizontal": 96,
+      },
+      undefined,
+    ]
+  }
+  testID="undefined"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Graphik-Regular",
+          "letterSpacing": 0.75,
+          "textAlign": "left",
+        },
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        Array [
+          Object {
+            "color": "rgb(71, 71, 71)",
+            "fontFamily": "Graphik-Regular",
+            "fontSize": 80,
+            "marginTop": 38,
+          },
+          Object {
+            "color": "rgb(66, 162, 194)",
+          },
+        ],
+      ]
+    }
+    testID="undefined_Title"
+  >
+    Welcome Title
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "flex-start",
+        "minHeight": 60,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Graphik-Regular",
+            "letterSpacing": 0.75,
+            "textAlign": "left",
+          },
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          Array [
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontSize": 40,
+              "justifyContent": "center",
+              "lineHeight": 60,
+              "paddingLeft": 6,
+            },
+            Object {
+              "color": "rgb(66, 162, 194)",
+            },
+          ],
+        ]
+      }
+      testID="undefined_Subtitle"
+    >
+      Welcome Subtitle
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Title + Subtitle + Flex 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+        "minHeight": 504,
+        "paddingHorizontal": 96,
+      },
+      Object {
+        "flex": 1,
+        "minHeight": 0,
+      },
+    ]
+  }
+  testID="undefined"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Graphik-Regular",
+          "letterSpacing": 0.75,
+          "textAlign": "left",
+        },
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        Array [
+          Object {
+            "color": "rgb(71, 71, 71)",
+            "fontFamily": "Graphik-Regular",
+            "fontSize": 80,
+            "marginTop": 38,
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="undefined_Title"
+  >
+    Welcome Title
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "flex-start",
+        "minHeight": 60,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Graphik-Regular",
+            "letterSpacing": 0.75,
+            "textAlign": "left",
+          },
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          Array [
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontSize": 40,
+              "justifyContent": "center",
+              "lineHeight": 60,
+              "paddingLeft": 6,
+            },
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined_Subtitle"
+    >
+      Welcome Subtitle
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Title + Subtitle 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+        "minHeight": 504,
+        "paddingHorizontal": 96,
+      },
+      undefined,
+    ]
+  }
+  testID="undefined"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Graphik-Regular",
+          "letterSpacing": 0.75,
+          "textAlign": "left",
+        },
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        Array [
+          Object {
+            "color": "rgb(71, 71, 71)",
+            "fontFamily": "Graphik-Regular",
+            "fontSize": 80,
+            "marginTop": 38,
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="undefined_Title"
+  >
+    Welcome Title
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "flex-start",
+        "minHeight": 60,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Graphik-Regular",
+            "letterSpacing": 0.75,
+            "textAlign": "left",
+          },
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          Array [
+            Object {
+              "color": "rgb(71, 71, 71)",
+              "fontSize": 40,
+              "justifyContent": "center",
+              "lineHeight": 60,
+              "paddingLeft": 6,
+            },
+            undefined,
+          ],
+        ]
+      }
+      testID="undefined_Subtitle"
+    >
+      Welcome Subtitle
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Title 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+        "minHeight": 504,
+        "paddingHorizontal": 96,
+      },
+      undefined,
+    ]
+  }
+  testID="undefined"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Graphik-Regular",
+          "letterSpacing": 0.75,
+          "textAlign": "left",
+        },
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        Array [
+          Object {
+            "color": "rgb(71, 71, 71)",
+            "fontFamily": "Graphik-Regular",
+            "fontSize": 80,
+            "marginTop": 38,
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="undefined_Title"
+  >
+    Welcome Title
+  </Text>
+</View>
+`;
+
+exports[`Welcome 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+        "minHeight": 504,
+        "paddingHorizontal": 96,
+      },
+      undefined,
+    ]
+  }
+  testID="undefined"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Graphik-Regular",
+          "letterSpacing": 0.75,
+          "textAlign": "left",
+        },
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        Array [
+          Object {
+            "color": "rgb(71, 71, 71)",
+            "fontFamily": "Graphik-Regular",
+            "fontSize": 80,
+            "marginTop": 38,
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="undefined_Title"
+  />
+</View>
+`;

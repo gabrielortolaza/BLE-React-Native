@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalAchievementScreen Empty 1 1`] = `ShallowWrapper {}`;
+
+exports[`ModalAchievementScreen Empty 2 1`] = `ShallowWrapper {}`;
+
+exports[`ModalAchievementScreen Empty 3 1`] = `ShallowWrapper {}`;
+
+exports[`ModalAchievementScreen Structure - Button 1`] = `ShallowWrapper {}`;
+
+exports[`ModalAchievementScreen Structure - Default 1`] = `ShallowWrapper {}`;
+
+exports[`ModalAchievementScreen Structure - allCenter 1`] = `ShallowWrapper {}`;
+
+exports[`ModalAchievementScreen Structure - altLayout 1`] = `ShallowWrapper {}`;

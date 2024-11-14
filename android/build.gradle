@@ -1,0 +1,70 @@
+buildscript {
+    ext {
+        buildToolsVersion = "34.0.0"
+        minSdkVersion = 23
+        compileSdkVersion = 34
+        targetSdkVersion = 34
+        ndkVersion = "26.1.10909125"
+        kotlinVersion = "1.9.24"
+    }
+    repositories {
+        google()
+        maven {
+            url 'https://maven.fabric.io/public'
+        }
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+        classpath 'com.google.gms:google-services:4.4.0' // google-services plugin
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.9'
+        classpath 'com.google.firebase:firebase-plugins:1.1.5'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.10'
+        classpath 'com.bugsnag:bugsnag-android-gradle-plugin:8.+'
+
+        // COMBEK
+        // maven { url 'https://maven.google.com' }
+        // maven {
+        //     // All of Detox' artifacts are provided via the npm module
+        //     url "$rootDir/../node_modules/detox/Detox-android"
+        // }
+        // maven {
+        //     url "$rootDir/../node_modules/@notifee/react-native/android/libs"
+        // }
+      }
+    configurations.all {
+        resolutionStrategy {
+            force 'com.facebook.android:facebook-android-sdk:4.34.0'
+            force 'com.google.android.gms:play-services-gcm:16.1.0'
+        }
+    }
+}
+
+subprojects {
+    project.configurations.all {
+        resolutionStrategy {
+            eachDependency { details ->
+                // Force dependencies to use the same version.
+                def versionSelector = details.requested
+                // if (versionSelector.group == 'com.google.firebase') {
+                //     details.useVersion rootProject.ext.firebaseServicesVersion
+                // }
+//                 if (versionSelector.group == 'com.google.android.gms') {
+//                     details.useVersion rootProject.ext.firebaseServicesVersion
+//                 }
+            }
+        }
+    }
+    afterEvaluate {project ->
+        if (project.hasProperty("android")) {
+            android {
+                compileSdkVersion rootProject.ext.compileSdkVersion
+                buildToolsVersion rootProject.ext.buildToolsVersion
+            }
+        }
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"
